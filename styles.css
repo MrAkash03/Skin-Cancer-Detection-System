@@ -1,0 +1,241 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+}
+
+.logo-image {
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+}
+
+button:hover {
+    transform: scale(1.02);
+}
+
+button {
+    transition: transform 0.2s ease-in-out;
+}
+
+/* Hero Section */
+.hero-section {
+    background: url('skin_back.jpg') no-repeat center center/cover;
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+}
+
+.hero-section .container {
+    z-index: 1;
+    position: relative;
+}
+
+.hero-section h1 {
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+.hero-section p {
+    font-size: 1.25rem;
+}
+
+h2 {
+    font-weight: bold; 
+}
+
+/* Hover Effect for SkinCure Logo */
+h1:hover {
+    color: #23d340; 
+    text-shadow: 4px 4px 6px rgba(0, 0, 0, 0.3); 
+    transform: scale(1.05); 
+}
+
+
+/* Form Styling */
+form .form-control:focus {
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+    border-color: #007bff;
+}
+
+.card-title {
+    font-size: 1.75rem;
+    font-weight: bold;
+}
+
+/* Footer */
+footer {
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+
+.home-container {
+    position: relative;
+    cursor: pointer;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.home-description {
+    display: none;
+    position: absolute;
+    top: 40px;
+    left: 0;
+    background-color: #f8f9fa;
+    padding: 15px;
+    width: 300px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 10;
+    font-size: 14px;
+    color: #333;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.home-container:hover .home-description {
+    display: block;
+}
+/* Custom Styles for About Hover Effect */
+.about-container {
+    position: relative;
+    cursor: pointer;
+    font-weight: bold;
+    margin-right: 10px; 
+    margin-left: 10px;
+}
+
+.about-description {
+    display: none;
+    position: absolute;
+    top: 40px;
+    left: 0;
+    background-color: #f8f9fa;
+    padding: 15px;
+    width: 300px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 10;
+    font-size: 14px;
+    color: #333;
+    border-radius: 5px;
+}
+
+.about-container:hover .about-description {
+    display: block;
+}
+
+
+/* Custom Styles for Treatment Hover Effect */
+.treatment-container {
+    position: relative;
+    cursor: pointer;
+    font-weight: bold;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.treatment-description {
+    display: none;
+    position: absolute;
+    top: 40px;
+    left: 0;
+    background-color: #f8f9fa;
+    padding: 15px;
+    width: 300px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 10;
+    font-size: 14px;
+    color: #333;
+    border-radius: 5px;
+}
+
+.treatment-container:hover .treatment-description {
+    display: block;
+}
+
+/* Custom Styles for Service Hover Effect */
+.service-container {
+    position: relative;
+    cursor: pointer;
+    font-weight: bold;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.service-description {
+    display: none;
+    position: absolute;
+    top: 40px;
+    left: 0;
+    background-color: #f8f9fa;
+    padding: 15px;
+    width: 300px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 10;
+    font-size: 14px;
+    color: #333;
+    border-radius: 5px;
+}
+
+.service-container:hover .service-description {
+    display: block;
+}
+
+/* Custom Styles for Contributor Hover Effect */
+.contributor-container {
+    position: relative;
+    cursor: pointer;
+    font-weight: bold;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.contributor-description {
+    display: none;
+    position: absolute;
+    top: 40px;
+    left: 0;
+    background-color: #f8f9fa;
+    padding: 15px;
+    width: 300px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 10;
+    font-size: 14px;
+    color: #333;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.contributor-container:hover .contributor-description {
+    display: block;
+}
+
+
+.home-container {
+    position: relative;
+    cursor: pointer;
+    font-weight: bold;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.home-description {
+    display: none;
+    position: absolute;
+    top: 40px;
+    left: 0;
+    background-color: #f8f9fa;
+    padding: 15px;
+    width: 300px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 10;
+    font-size: 14px;
+    color: #333;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.home-container:hover .home-description {
+    display: block;
+}

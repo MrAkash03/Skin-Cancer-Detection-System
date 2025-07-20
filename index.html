@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skin Cancer Detection</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom Styles -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header class="bg-dark text-white py-3">
+        <div class="container d-flex justify-content-between align-items-center">
+            <!-- Logo and Title -->
+            <div class="d-flex align-items-center">
+                <img src="download.png" alt="SkinCure Logo" class="logo-image me-3" width="40">
+                <h1 class="h3 m-0">SkinCure</h1>
+            </div>
+    
+            <!-- Navigation -->
+            <nav>
+                <ul class="nav">
+                    <!-- Home Section with Hover Effect -->
+                    <li class="nav-item home-container">
+                        Home
+                        <div class="home-description">
+                            <h2>Welcome to SkinCure</h2>
+                            <p>
+                                At SkinCure, we are dedicated to empowering your skin health through advanced machine learning technology. Our AI-powered platform enables quick, accurate skin lesion analysis, offering early detection of skin diseases and conditions.
+                            </p>
+                            <h3>Why Choose SkinCure?</h3>
+                            <ul>
+                                <li><strong>AI-Driven Analysis:</strong> Powered by cutting-edge algorithms for fast, reliable skin cancer detection.</li>
+                                <li><strong>Accurate Predictions:</strong> Combining YOLOv8 and ResNet for more precise classifications of benign and malignant lesions.</li>
+                                <li><strong>Real-Time Consultations:</strong> Connect with dermatologists after a scan to discuss your results and next steps.</li>
+                                <li><strong>Trusted by Experts:</strong> Our platform is used by healthcare professionals for early-stage cancer detection and proactive skin health management.</li>
+                            </ul>
+                        </div>
+                    </li> 
+                    <!-- About Section with Hover Effect -->
+                    <li class="nav-item about-container">
+                        About
+                        <div class="about-description">
+                            <p>
+                                This project aims to predict skin diseases using advanced machine learning models. 
+                                By employing a combination of YOLOv8 and ResNet, we classify skin images into benign and malignant categories. 
+                                The approach uses ensemble learning techniques, where the predictions from both models are combined through majority voting for better accuracy. 
+                                The workflow consists of image preprocessing, model predictions, and post-processing, along with accuracy metrics to assess performance. 
+                                Ultimately, this project delivers precise skin disease classifications and ensures reliable outcomes through real-time deployment-ready models.
+                            </p>
+                        </div>
+                    </li>
+                    <!-- Treatment Section with Hover Effect -->
+                    <li class="nav-item treatment-container">
+                        Treatment
+                        <div class="treatment-description">
+                            <h3>1. Malignant Melanoma Treatment</h3>
+                            <p>Malignant melanoma is a serious form of skin cancer, requiring intensive treatments like surgery, immunotherapy, and targeted therapies. Common options include:</p>
+                            <ul>
+                                <li><strong>Surgery:</strong> Excise the cancerous area along with surrounding tissue.</li>
+                                <li><strong>Immunotherapy:</strong> Checkpoint inhibitors to boost the body's immune response to cancer cells.</li>
+                                <li><strong>Radiation Therapy:</strong> Used in more advanced cases.</li>
+                            </ul>
+                            <h3>2. Benign Melanocytic Lesions</h3>
+                            <p>Non-cancerous lesions often don't require major treatment but may be removed for cosmetic reasons or if any irregular changes are detected.</p>
+                            <ul>
+                                <li><strong>Excision:</strong> Removal of the benign lesion if necessary.</li>
+                                <li><strong>Cryotherapy:</strong> Freezing of the lesion for removal.</li>
+                            </ul>
+                        </div>
+                    </li>
+                    <!-- Service Section with Hover Effect -->
+                    <li class="nav-item service-container">
+                        Service
+                        <div class="service-description">
+                            <h3>Accurate Skin Cancer Diagnosis</h3>
+                            <p>We offer advanced tools to detect skin cancer at early stages with the help of YOLOv8 and ResNet machine learning models. The combination of both models helps detect benign and malignant skin lesions accurately.</p>
+                            
+                            <h3>Virtual Consultations with Dermatologists</h3>
+                            <p>After diagnosing skin conditions through our platform, we offer remote consultations with certified dermatologists who can guide you on the next steps and suggest customized treatment options.</p>
+                            
+                            <h3>Personalized Skin Care Plans</h3>
+                            <p>For the best outcomes, our platform also provides customized care and treatment plans that can help with the management of detected skin conditions and ensure they are addressed proactively.</p>
+                        </div>
+                    </li>
+
+                    <!-- Contributor Section with Hover Effect -->
+                    <li class="nav-item contributor-container">
+                        Contributor
+                        <div class="contributor-description">
+                            <h3>Mentor</h3>
+                            <p>Hiranmoy Roy, PhD (CSE)</p>
+                            <p>Email: <a href="mailto:hiru.roy@gmail.com">hiru.roy@gmail.com</a></p>
+
+                            <h3>Team Lead</h3>
+                            <p>Raja Pandey</p>
+                            <p>Email: <a href="mailto:rajapandey0920@gmail.com">rajapandey0920@gmail.com</a></p>
+
+                            <h3>Team Members</h3>
+                            <ul>
+                                <li>Hritwika Chowdhury - IT Dept</li>
+                                <p>Email: <a href="mailto:chowdhuryhritwika01@gmail.com">chowdhuryhritwika01@gmail.com</a></p>
+                                <li>Hritam Dey - IT Dept</li>
+                                <p>Email: <a href="mailto:hritamdey2004@gmail.com">hritamdey2004@gmail.com</a></p>
+                                <li>Akash Saha - IT Dept</li>
+                                <p>Email: <a href="mailto:akashsaha1300@gmail.com">akashsaha1300@gmail.com</a></p>
+                            </ul>
+                        </div>
+                    </li>
+
+                </ul>
+            </nav>
+            <!-- Search Bar -->
+            <form class="d-flex ms-3" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-light" type="submit">Search</button>
+            </form>
+        </div>
+    </header>
+    
+    <!-- Hero Section -->
+    <div class="hero-section text-white text-center d-flex align-items-center">
+        <div class="container">
+            <h1 class="display-4 fw-bold">Empowering Your Skin Health with Advanced Care</h1>
+            <p class="lead">Your skin, our focus—compassionate care for a brighter tomorrow.</p>
+        </div>
+    </div>
+
+    <!-- Main Content Section -->
+    <div class="container my-5">
+        <h2 class="text-center mb-4">Scan Your Skin Lesion</h2>
+        <form action="/upload" method="POST" enctype="multipart/form-data" class="mb-4">
+            <div class="mb-3">
+                <label for="file-upload" class="form-label">Upload Skin Lesion Photo:</label>
+                <input type="file" id="file-upload" name="skin-photo" class="form-control" accept="image/*" required>
+            </div>
+            <button type="submit" class="btn btn-primary w-100">Scan Photo</button>
+        </form>
+
+        <div class="card shadow-sm">
+            <div class="card-body">
+                <h2 class="card-title">Login</h2>
+                <form action="/login" method="POST">
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Email:</label>
+                        <input type="email" id="email" name="email" class="form-control" placeholder="Enter your email" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="password" class="form-label">Password:</label>
+                        <input type="password" id="password" name="password" class="form-control" placeholder="Enter your password" required>
+                    </div>
+                    <button type="submit" class="btn btn-success w-100">Login</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer Section -->
+    <footer class="bg-dark text-white text-center py-3">
+        <p>&copy; 2025 Skin Cancer Detection System. All rights reserved.</p>
+        <p>Partners in proactive skin health—because prevention matters.</p>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
